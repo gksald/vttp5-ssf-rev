@@ -17,7 +17,7 @@ Check docker image create in local docker repo <br>
 
 Run the image inside the container <br>
 5. docker run -d -t -p <exposed public port>:<application server port> <image name> <br>
-docker run -d -t -p 8085:3000 me1v1k/vttp5-ssf-day19l:0.0.1 <br>
+docker run -d -t -p 8085:3000 me1v1k/vttp5-ssf-rev:0.0.1 <br>
 docker run -d -p 8080:3000 -e API_KEY=e3f7588b728f4f62a9131452240612 me1v1k/vttp5-ssf-day19l:0.0.1 <br>
 
 Check docker container running <br>
